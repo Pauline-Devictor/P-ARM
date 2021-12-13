@@ -4,6 +4,10 @@
 #define OPb DIP2
 #define CMD DIP3
 
+
+BEGIN();
+END();
+
 void run() 
 {
 	BEGIN();
@@ -25,3 +29,5 @@ void run()
 			RES = OPa << OPb;
 	}
 }
+END();
+BEGIN();

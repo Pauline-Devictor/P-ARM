@@ -2,6 +2,9 @@
 #include <utils.h>
 #include <math.h>
 
+BEGIN();
+END();
+
 void run()
 {
 	BEGIN();
@@ -28,3 +31,5 @@ void run()
 
 	END();
 }
+END();
+BEGIN();

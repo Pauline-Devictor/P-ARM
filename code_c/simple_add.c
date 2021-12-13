@@ -1,5 +1,8 @@
 #include "parm.h"
 
+BEGIN();
+END();
+
 void run()
 {
   BEGIN();
@@ -9,3 +12,6 @@ void run()
   RES = c;
   END();
 }
+
+END();
+BEGIN();

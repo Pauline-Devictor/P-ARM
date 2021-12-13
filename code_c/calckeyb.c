@@ -1,7 +1,8 @@
 #include "parm.h"
 #include "utils.h"
 #include "math.h"
-
+BEGIN();
+END();
 void run()
 {
 	BEGIN();
@@ -59,3 +60,5 @@ read:
 
 	RESET();
 }
+END();
+BEGIN();
