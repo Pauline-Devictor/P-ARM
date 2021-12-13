@@ -459,6 +459,9 @@ end TCL_Generic;
       <a name="label" val="instru"/>
       <a name="width" val="16"/>
     </comp>
+    <comp lib="0" loc="(800,930)" name="Tunnel">
+      <a name="label" val="reset"/>
+    </comp>
     <comp lib="0" loc="(830,490)" name="Tunnel">
       <a name="label" val="ram"/>
       <a name="width" val="32"/>
@@ -570,6 +573,8 @@ end TCL_Generic;
     <wire from="(720,690)" to="(720,700)"/>
     <wire from="(740,510)" to="(760,510)"/>
     <wire from="(740,670)" to="(760,670)"/>
+    <wire from="(750,920)" to="(750,930)"/>
+    <wire from="(750,930)" to="(800,930)"/>
     <wire from="(760,500)" to="(760,510)"/>
     <wire from="(760,500)" to="(780,500)"/>
     <wire from="(770,480)" to="(780,480)"/>
