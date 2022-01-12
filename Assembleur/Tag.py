@@ -1,7 +1,7 @@
 class Tag :
 
     def __init__(self):
-        fichier = open("C:/Users/emile/Documents/Programmation/Python/assembleur/info.txt" , "r")
+        fichier = open("info.txt" , "r")
         self.__toutTags = fichier.readlines()
         fichier.close()
         for i in range (len(self.__toutTags)):
