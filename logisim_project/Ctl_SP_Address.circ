@@ -273,7 +273,6 @@ end TCL_Generic;
       <a name="width" val="16"/>
     </comp>
     <comp lib="2" loc="(710,190)" name="Multiplexer">
-      <a name="enable" val="false"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="3" loc="(640,340)" name="Subtractor">
@@ -286,7 +285,7 @@ end TCL_Generic;
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Pull output low on Enable = 0"/>
     </comp>
-    <wire from="(110,410)" to="(840,410)"/>
+    <wire from="(110,410)" to="(700,410)"/>
     <wire from="(160,200)" to="(210,200)"/>
     <wire from="(190,120)" to="(310,120)"/>
     <wire from="(210,200)" to="(210,300)"/>
@@ -317,6 +316,8 @@ end TCL_Generic;
     <wire from="(660,110)" to="(660,180)"/>
     <wire from="(660,180)" to="(680,180)"/>
     <wire from="(690,210)" to="(690,380)"/>
+    <wire from="(700,210)" to="(700,410)"/>
+    <wire from="(700,410)" to="(840,410)"/>
     <wire from="(710,190)" to="(750,190)"/>
     <wire from="(750,150)" to="(750,190)"/>
     <wire from="(750,150)" to="(770,150)"/>
