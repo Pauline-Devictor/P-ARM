@@ -280,12 +280,16 @@ end TCL_Generic;
     <comp lib="2" loc="(270,300)" name="BitSelector">
       <a name="width" val="16"/>
     </comp>
+<<<<<<< HEAD
+    <comp lib="2" loc="(710,190)" name="Multiplexer">
+=======
     <comp lib="2" loc="(700,150)" name="Multiplexer">
       <a name="enable" val="false"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="2" loc="(770,150)" name="Multiplexer">
       <a name="enable" val="false"/>
+>>>>>>> 4f9da40960e1b1d32f878f70c5d431f329d7a47e
       <a name="width" val="32"/>
     </comp>
     <comp lib="3" loc="(640,340)" name="Subtractor">
@@ -298,10 +302,14 @@ end TCL_Generic;
       <a name="font" val="SansSerif plain 12"/>
       <a name="text" val="Pull output low on Enable = 0"/>
     </comp>
+<<<<<<< HEAD
+    <wire from="(110,410)" to="(700,410)"/>
+=======
     <wire from="(110,410)" to="(140,410)"/>
     <wire from="(140,410)" to="(140,450)"/>
     <wire from="(140,410)" to="(840,410)"/>
     <wire from="(140,450)" to="(150,450)"/>
+>>>>>>> 4f9da40960e1b1d32f878f70c5d431f329d7a47e
     <wire from="(160,200)" to="(210,200)"/>
     <wire from="(190,120)" to="(310,120)"/>
     <wire from="(210,200)" to="(210,300)"/>
@@ -327,6 +335,18 @@ end TCL_Generic;
     <wire from="(610,120)" to="(610,220)"/>
     <wire from="(610,120)" to="(620,120)"/>
     <wire from="(640,340)" to="(650,340)"/>
+<<<<<<< HEAD
+    <wire from="(650,200)" to="(650,340)"/>
+    <wire from="(650,200)" to="(680,200)"/>
+    <wire from="(660,110)" to="(660,180)"/>
+    <wire from="(660,180)" to="(680,180)"/>
+    <wire from="(690,210)" to="(690,380)"/>
+    <wire from="(700,210)" to="(700,410)"/>
+    <wire from="(700,410)" to="(840,410)"/>
+    <wire from="(710,190)" to="(750,190)"/>
+    <wire from="(750,150)" to="(750,190)"/>
+    <wire from="(750,150)" to="(770,150)"/>
+=======
     <wire from="(650,160)" to="(650,340)"/>
     <wire from="(650,160)" to="(670,160)"/>
     <wire from="(660,110)" to="(660,140)"/>
@@ -341,6 +361,7 @@ end TCL_Generic;
     <wire from="(720,140)" to="(740,140)"/>
     <wire from="(750,170)" to="(750,220)"/>
     <wire from="(750,220)" to="(760,220)"/>
+>>>>>>> 4f9da40960e1b1d32f878f70c5d431f329d7a47e
     <wire from="(840,410)" to="(840,420)"/>
   </circuit>
 </project>
